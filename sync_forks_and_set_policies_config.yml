@@ -4,8 +4,11 @@ overrides:
   do_not_sync:
     - "opentelemetry-dotnet"
   do_not_disable_force_pushes:
+    - null
   do_not_disable_deletion:
+    - null
   do_not_enforce_merge_reviews:
+    - null
   do_not_disable_actions:
     - "dishwasher" # This repo needs to be excluded so its own Action can run
 

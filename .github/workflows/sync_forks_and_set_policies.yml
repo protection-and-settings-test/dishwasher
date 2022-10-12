@@ -2,9 +2,7 @@
 
 name: Sync forks and set policies
 on:
-  schedule:
-    # * is a special character in YAML so you have to quote this string
-    - cron:  '0 */6 * * *'
+  push
 
 jobs:
   sync_forks:
